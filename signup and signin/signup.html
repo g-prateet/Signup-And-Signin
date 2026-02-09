@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>SignUp page</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <h3 id="heading">Sign Up here!!</h3>
+        </div>
+    </header>
+    <br>
+    <br>
+    <main>
+        <div title="form">
+            <form action="#" method="post">
+                <fieldset id="personalinfo">
+                <legend>Personal Information</legend>
+
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
+
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" min="1940-01-01" max="2018-12-31" required><br><br>
+                </fieldset><br>
+                
+                <fieldset id="accountinfo">
+                <legend>Account Information</legend>
+
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" placeholder="Enter a username" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter a valid email ID" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter a valid password" pattern="(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}" title="At least 8 characters, one uppercase, one number, one special character" required><br><br>
+                
+                <label for="cpassword">Confirm Password:</label><br>
+                <input type="password" id="cpassword" name="password" placeholder="Confirm Password" required><br>
+
+                <div>
+                <p>The password should contain:</p>
+                    <ul id="list">
+                        <li>At least 8 digits.</li>
+                        <li>An uppercase letter, a number and a special character.</li>
+                    </ul>
+                </div>
+
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to the terms and conditions.</label><br><br>
+
+                </fieldset><br>
+
+                <input type="submit" value="submit" >
+                
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Already have an account ? <a id="link" href="signin.html">Login Here!</a></p>
+        </div>
+    </footer>
+</body>
+</html>

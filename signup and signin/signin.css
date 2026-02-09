@@ -1,0 +1,26 @@
+body{
+   // background-color:rgb(29, 29, 29);
+    background-image: url("vasilis-karkalas-i8cDJOiIvTo-unsplash.jpg");
+    background-size:cover;
+}
+
+#heading{
+    color:white;
+    text-align:center;
+    font-size:50px;
+}
+form{
+    color:white;
+    text-align:center;
+    font-size:30px;
+}
+input{
+    width:300px;
+    height:30px;
+    font-size:18px;
+}
+input[type="submit"]{
+    width:150px;
+    height:50px;
+    font-size:40px
+}

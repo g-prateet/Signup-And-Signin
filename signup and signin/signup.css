@@ -1,0 +1,54 @@
+ #heading{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-size:50px;
+    font-family:arial;
+    text-transform:uppercase;
+    font-family:"Times New Roman", Times, serif;
+} 
+
+body{
+    
+    background-image: url("vasilis-karkalas-i8cDJOiIvTo-unsplash.jpg");
+    background-size:cover;
+}
+#logo{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border-radius:20px;
+    margin:5px;
+}
+form{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-size:30px;
+    font-family:"Times New Roman", Times, serif;
+}
+
+footer{
+    color:white;
+    font-size:20px;
+}
+
+#link{
+    color:rgb(84, 84, 182)
+}
+input{
+    width:300px;
+    height:30px;
+    font-size:18px;
+}
+input[type="checkbox"]{
+    width:13px;
+    height:13px;
+}
+input[type="submit"]{
+    width:150px;
+    height:50px;
+    font-size:40px
+}
+#list{
+    display:inline-block;
+    justify-content:center;
+}
